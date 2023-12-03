@@ -1,0 +1,83 @@
+<!Doctype Html>
+<Html>   
+<Head>    
+<Title>   
+MT Pie Festival
+</Title>
+<style type=text/css> 
+body {
+height: 125vh;
+margin-top: 80px;
+padding: 20px;
+background-size: cover;
+font-family: sans-serif;
+}
+h1 {
+text-size:300%
+text-allign: center;
+height: 205px;
+}
+header {
+background-color: #ffab47;
+position: fixed;
+left: 0;
+right: 0;
+top: 5px;
+height: 200px;
+display: flex;
+align-items: center;
+box-shadow: 0 0 25px 0 black;
+}
+header * {
+display: inline;
+}
+header li {
+margin: 70px;
+}
+header li a {
+color: black;
+text-decoration: none;
+}
+</style> 
+</Head>
+<Body> 
+<header>
+<nav>
+<ul>
+<li>
+<a href="Tickets.html"> Tickets </a>
+</li>
+<li>
+<a href="recipies.html"> Recipies </a>
+</li>
+<li>
+<h1><a href="index.html"> YM Pie Festival </a></h1>
+</li>
+<li> <a href="info.html"> Info </a>
+</li>
+<li>
+<a href="login.html"> Login </a>
+</li>
+</ul>
+</nav>
+</header>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Registration Page</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <form id="registerForm" action="register.php" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+
+          <button type="submit">Register</button>
+      </form>
+
+      <p>Already have an account? <a href="login.html">Login here</a></p>
+  </body>
+</Html>

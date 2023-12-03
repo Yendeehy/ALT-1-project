@@ -1,0 +1,90 @@
+<!Doctype Html>
+<Html>   
+<Head>    
+<Title>   
+MT Pie Festival
+</Title>
+<style type=text/css> 
+body {
+height: 125vh;
+margin-top: 80px;
+padding: 20px;
+background-size: cover;
+font-family: sans-serif;
+}
+h1 {
+text-size:300%
+text-allign: center;
+height: 205px;
+}
+header {
+background-color: #ffab47;
+position: fixed;
+left: 0;
+right: 0;
+top: 5px;
+height: 200px;
+display: flex;
+align-items: center;
+box-shadow: 0 0 25px 0 black;
+}
+header * {
+display: inline;
+}
+header li {
+margin: 70px;
+}
+header li a {
+color: black;
+text-decoration: none;
+}
+</style> 
+</Head>
+<Body> 
+<header>
+<nav>
+<ul>
+<li>
+<a href="Tickets.html"> Tickets </a>
+</li>
+<li>
+<a href="recipies.html"> Recipies </a>
+</li>
+<li>
+<h1><a href="index.html"> YM Pie Festival </a></h1>
+</li>
+<li> <a href="info.html"> Info </a>
+</li>
+<li>
+<a href="login.html"> Login </a>
+</li>
+</ul>
+</nav>
+</header>
+
+  <body> 
+    <h1>padding</h1>
+    <p style="font-size: 200%;">Below is a selction of our ticket options. After you've decided, scroll to the bottom of the page to select which tickets you would like to purchase!</p>
+    <img src="/images/Basic Pie Ticket.png" alt="Basic Ticket" style="width:60%;height:22%">
+    <img src="/images/Upgraded Pie Ticket.png" alt="Upgraded Ticket" style="width:60%;height:22%">
+    <img src="/images/VIP Pie Ticket.png" alt="VIP ticket" style="width:60%;height:22%">
+
+    <p style="font-size: 200%;">Enter your information and ticket selection below:</p>
+
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="Pno.">Email Address</label><br>
+      <input type="text" id="PNo." name="PNo."><br>
+      <input type="radio" id="Basic" name="ticket_select" value="Basic">
+      <label for="Basic ticket">Basic Ticket - €20</label><br>
+      <input type="radio" id="Premium" name="ticket_select" value="Premium">
+      <label for="css">Premium Ticket - €30</label><br>
+      <input type="radio" id="VIP" name="ticket_select" value="VIP">
+      <label for="javascript">VIP Ticket - €50</label><br><br>
+      <input type="submit" value="Submit"><br><br><br>
+    </form>
+  </body>
+</Html>
